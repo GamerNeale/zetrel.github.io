@@ -1,0 +1,4 @@
+CREATE TABLE sessions (
+  id TEXT PRIMARY KEY,
+  last_seen TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
